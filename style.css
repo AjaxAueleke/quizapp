@@ -15,6 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    
 }
 
 .name {
@@ -48,4 +49,10 @@ button {
     color : #ffffdd;
     padding: 20px;
     border-radius : 5px;
+    border : 1px solid #0A81AB;
+}
+
+button:hover{
+    color: #0A81AB;
+    background-color: #222222;
 }
