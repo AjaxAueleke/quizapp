@@ -7,7 +7,6 @@
     <title>Quiz App</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="image/quiz.svg" type="image/x-icon" />
-    
   </head>
   <body>
     <!-- To do : Form(For Information) Quiz(with timer) Scorecard(with details) -->
@@ -24,9 +23,21 @@
         <button class = "formbutton" onclick="validation()">Submit</button>
     </div>
 
-    
+    <!--Quiz Card  -->
 
+    <div class="container">
+      <div class="timer">10</div>
 
+      <div id="quizQuestion">Who are you?(Dummy)</div>
+      <div class="option">
+        <ul id="optionUl">
+          <li><input type="radio" name="one" id="one" value="1" /><label for="one">One</label></li>
+          <li><input type="radio" name="one" id="two" value="2" /><label for="two">Two</label></li>
+          <li><input type="radio" name="one" id="three" value="3" /><label for="three">Three</label></li>
+        </ul>
+      </div>
+      <button class = "next" onclick = "next()"><i class="fas fa-arrow-circle-right"></i>Next    </button>
+    </div>
   </body>
   <script src="app.js"></script>
   <script
